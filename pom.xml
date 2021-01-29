@@ -11,7 +11,6 @@
 	<groupId>udea.proyecto</groupId>
 	<artifactId>Proyecto1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>Proyecto1</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -82,13 +81,6 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-
-        <!-- JDK 9/10 support. This step is required because those modules are deprecated and will be removed by JEP-320 that is scheduled to be released with JDK 11. -->
-        <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-            <version>2.3.0</version>
         </dependency>
 
         
