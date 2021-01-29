@@ -1,0 +1,17 @@
+# Server properties
+server:
+  servlet:
+    context-path: /udea
+  port: 8000
+
+# Spring properties
+spring:
+  # Dev is active by default. This value can be overwritten by java arg param
+  profiles:
+    active: heroku
+  application:
+    name: tour-api
+
+jwt:
+  secret : secret 
+  expiration : 36000
